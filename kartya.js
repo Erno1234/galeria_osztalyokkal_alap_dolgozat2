@@ -6,6 +6,10 @@ class Kartya {
         this.tarolo = szuloelem.children("div:last-child");
         this.tarolo.append(`<img src="${this.#kepem.kep}" alt="">`);
         this.kepImg = this.tarolo.children("img");
+        this.kepImg.on("click", () => {
+            console.log(kepImg);
+        });
+        
     }
 }
 export default Kartya;

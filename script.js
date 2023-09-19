@@ -29,6 +29,5 @@ $(function () {
     galeriaTomb.forEach((elem, index) => {
         const galeriaKep = new Kartya(elem, index, GALERIA);
     });
-
-   
+    
 });
